@@ -28,5 +28,6 @@ while True:
             break
     elif ask_password == password:
         break
-        print("Welcome! You're logged in!")
-        # More stuff coming
+        print("You're logged in")
+        print('Hello stupid1234')
+        
