@@ -1,4 +1,7 @@
-import webbrowser
+from time import time
+from typing import Text
+import webbrowser, datetime
+
 password, incorrectCount = '', 0
 
 def settingUp():
@@ -30,4 +33,7 @@ while True:
         break
         print("You're logged in")
         print('Hello stupid1234')
+        today = datetime.date.today()
+        time = '{today.day}/{today.month}/{today.year}'.format(today=today)
+        print(time)
         
