@@ -1,25 +1,6 @@
-from time import time
-from typing import Text
-import webbrowser, datetime
+password = 1234
+incorrectCount = 0
 
-password, incorrectCount = '', 0
-
-def settingUp():
-    global password
-    while True:
-        print('Type a password: ')
-        password = input('')
-        if password == '':
-            print('You need to type something')
-        else:
-            print('Done!')
-            break
-    print('This is your password: ' + password)
-    print('Restarting...')
-settingUp()
-
-for i in range(56):
-    print('Restarting...')
 while True:
     print('What is the password?')
     ask_password = input('')
@@ -30,7 +11,7 @@ while True:
         today = datetime.date.today()
         time = '{today.day}/{today.month}/{today.year}'.format(today=today)
         print("The date today is" + time)     
-    elif ask_password != password:
+    else:
         print('You have to type a password')
         incorrectCount += 1
         if incorrectCount == 12:
