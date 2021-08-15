@@ -1,4 +1,4 @@
-password = 1234
+password = '1234'
 incorrectCount = 0
 
 while True:
