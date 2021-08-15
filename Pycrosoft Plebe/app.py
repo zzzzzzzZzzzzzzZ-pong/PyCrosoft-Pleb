@@ -24,8 +24,7 @@ while True:
     print('What is the password?')
     ask_password = input('')
     if ask_password == password:
-        break
-        print("The date today is" + time)     
+        break    
     elif ask_password != password:
         print('You have to type a password')
         incorrectCount += 1
@@ -37,3 +36,4 @@ print("You're logged in")
 print('Hello stupid1234')        
 today = datetime.date.today()
 time = '{today.day}/{today.month}/{today.year}'.format(today=today)
+print("The date today is" + time)
