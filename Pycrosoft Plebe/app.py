@@ -37,3 +37,6 @@ print('Hello stupid1234')
 today = datetime.date.today()
 time = '{today.day}/{today.month}/{today.year}'.format(today=today)
 print("The date today is" + time)
+while True:
+    type_url = input('Type a URL: ')
+    webbrowser(type_url)
