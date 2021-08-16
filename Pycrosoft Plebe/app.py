@@ -29,7 +29,7 @@ while True:
         print('You have to type a password')
         incorrectCount += 1
         if incorrectCount == 12:
-            print("You're busted, hacker! You can't log in now!")
+            print("You're busted, hacker! You can't log in now! We're locking the account! HAH!")
             break
 
 print("You're logged in")
