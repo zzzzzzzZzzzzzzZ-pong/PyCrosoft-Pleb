@@ -1,4 +1,4 @@
-# PyCrosoft-1
+# PyCrosoft Pleb
 
 ![PyCrosoft Logo](./images/Pycrosoft.png)
 
