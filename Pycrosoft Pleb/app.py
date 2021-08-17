@@ -40,3 +40,5 @@ print("The date today is" + time)
 while True:
     a_url = input('Type a URL: ')
     print('Redirecting you to ' + a_url)
+    print('Redirecting successful!')
+    webbrowser.open_new(a_url)
