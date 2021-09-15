@@ -1,6 +1,6 @@
-import tkinter as tk
+import colorama
+from colorama import Fore
 
+colorama.init(autoreset=True)
 
-def register():
-    db = open('database.txt', 'r')
-    pass
+print(f'{Fore.RED}Sorry, this project is currently in maintenance!')
